@@ -35,7 +35,7 @@ namespace MyProject
             int money = Convert.ToInt32(money1);
             return money;
         }
-        public static void AddSale()
+        public static int AddSale()
         {
             if (ReadFronAge() >= 60)
             {
@@ -53,6 +53,7 @@ namespace MyProject
             {
                 Console.WriteLine("Для Вас нет ни каких акций!");
             }
+            return 0;
         }
     }
 
