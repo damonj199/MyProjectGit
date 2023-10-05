@@ -29,7 +29,7 @@ namespace MyProject
             int percent = Convert.ToInt32(percent1);
             return percent;
         }
-        public static void AddVklada()
+        public static int AddVklada()
         {
             int itog = 0;
             int year = ReadFromSummaVklada();
@@ -40,6 +40,7 @@ namespace MyProject
                 year = itog;
                 Console.WriteLine(itog);
             }
+            return itog;
         }
     }
 }
