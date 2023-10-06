@@ -7,11 +7,11 @@ namespace MyProject.Test
     public class VkladTests
     {
         [Test]
-        public void AddVkladaTest()
+        public static void AddVkladaTest()
         {
-            int a = 10000;
-            int b = 1;
-            int c = 10;
+            int sum = 10000;
+            int year = 1;
+            int percent = 10;
             int expected = 11000; 
 
             int actual = Vklad.AddVklada();
